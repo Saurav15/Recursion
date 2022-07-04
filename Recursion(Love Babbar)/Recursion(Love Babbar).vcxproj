@@ -127,10 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="10_ReverseString.cpp" />
     <ClCompile Include="1_Factorial.cpp" />
     <ClCompile Include="2_PowerOf2.cpp" />
     <ClCompile Include="3_counting.cpp" />
     <ClCompile Include="4_Fibonnacci.cpp" />
+    <ClCompile Include="6_isArraySorted.cpp" />
+    <ClCompile Include="7_sumOfArray.cpp" />
+    <ClCompile Include="8_LinearSearch.cpp" />
+    <ClCompile Include="9_BinarySearch.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
