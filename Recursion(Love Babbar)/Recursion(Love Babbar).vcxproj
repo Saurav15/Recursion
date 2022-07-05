@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="10_ReverseString.cpp" />
+    <ClCompile Include="11_CheckPalindrome.cpp" />
+    <ClCompile Include="12_CalculatePower.cpp" />
+    <ClCompile Include="13_BubbleSort.cpp" />
+    <ClCompile Include="14_MergeSort.cpp" />
     <ClCompile Include="1_Factorial.cpp" />
     <ClCompile Include="2_PowerOf2.cpp" />
     <ClCompile Include="3_counting.cpp" />

@@ -12,14 +12,24 @@ string reverseString(string& str, int low ,int high) {
 	}
 }
 
+string reverseStringSinglePointer(string& str, int i) {
+	cout << "Pointer : " << i << endl;
+	if (i == ((str.length() - 1) / 2))
+		return "";
+	else {
+		swap(str[i], str[str.length() - i - 1]);
+		return reverseStringSinglePointer(str, i + 1);
+	}
+}
+
 int reverseString_main() {
 	string str;
 	cout << "Enter string : " << endl;
 	getline(cin, str);
 
-	cout << str.length() << endl;
-	reverseString(str,0,str.length() - 1);
-	
+	//reverseString(str,0,str.length() - 1);
+	reverseStringSinglePointer(str, 0);
+
 	cout << "reversed string is : " << str << endl;
 
 	return 0;
